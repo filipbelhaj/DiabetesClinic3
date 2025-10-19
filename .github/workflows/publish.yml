@@ -1,11 +1,16 @@
-name: Publish image to GHCR
+name: Publish image
+
 on:
   push:
-    tags: [ 'v*' ]
+    tags:
+      - 'v*'         
 
 permissions:
   contents: read
   packages: write
+
+env:
+  IMAGE_NAME: ghcr.io/${{ github.repository_owner }}/diabetesclinic3
 
 jobs:
   build-and-push:
@@ -20,15 +25,19 @@ jobs:
           username: ${{ github.actor }}
           password: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Extract metadata (tags, labels)
+      - name: Extract tags/labels from git tag
         id: meta
         uses: docker/metadata-action@v5
         with:
-          images: ghcr.io/${{ github.repository_owner }}/diabetesclinic3
+          images: ${{ env.IMAGE_NAME }}
+          tags: |
+            type=ref,event=tag
 
       - name: Build and push
         uses: docker/build-push-action@v6
         with:
+          context: .
           push: true
           tags: ${{ steps.meta.outputs.tags }}
           labels: ${{ steps.meta.outputs.labels }}
+
