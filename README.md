@@ -19,10 +19,10 @@ docker pull ghcr.io/filipbelhaj/diabetesclinic3:v0.2
 
 ## RUN:
 
-## V0.1
+### V0.1
 docker run -p 8080:8080 ghcr.io/filipbelhaj/diabetesclinic3:v0.1
 
-## V0.2
+### V0.2
 docker run -p 8080:8080 ghcr.io/filipbelhaj/diabetesclinic3:v0.2
 
 ## Check Health: 
