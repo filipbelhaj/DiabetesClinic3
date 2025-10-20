@@ -74,4 +74,3 @@ def get_metrics():
     if not p.exists():
         raise HTTPException(status_code=404, detail="metrics.json not found")
     return json.loads(p.read_text())
-
