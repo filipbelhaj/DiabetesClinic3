@@ -7,10 +7,12 @@ import joblib
 MODELS_DIR = Path("model")
 ARTIFACTS_DIR = Path("artifacts")
 
-
 def save_model(artifacts, version: str) -> None:
     MODELS_DIR.mkdir(exist_ok=True)
-    joblib.dump(artifacts, MODELS_DIR / f"model_{version}.pkl")
+    versioned = MODELS_DIR / f"model_{version}.pkl"
+    latest = MODELS_DIR / "model.pkl"
+    joblib.dump(artifacts, versioned)
+    joblib.dump(artifacts, latest)
 
 
 def load_model(version: str | None = None):
