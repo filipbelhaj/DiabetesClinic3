@@ -65,7 +65,7 @@ Sample Payload:
 V0.1 Uses Linear Regression and StandardScaler as a baseline model <br>
 V0.2 Is a improved model using Ridge regularization and risk calibration <br>
 
-
+<br>
 | Date (Day/Month-Year) | Description | Author | Status |
 |------------------------|-------------|---------|---------|
 | 20/10-2025 | Update Dockerfile – optimized image build and dependencies | filipbelhaj | ✅ Verified |
