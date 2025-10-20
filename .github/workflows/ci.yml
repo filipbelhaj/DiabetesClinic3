@@ -37,7 +37,7 @@ jobs:
         run: |
           mkdir -p artifacts
           pytest -vv --maxfail=1 -rA | tee artifacts/pytest.log
-        continue-on-error: true
+        continue-on-error: false
 
       - name: Upload pytest log
         if: always()
