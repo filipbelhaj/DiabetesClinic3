@@ -60,7 +60,9 @@ jobs:
           password: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Build image
-        run: docker build -t "${{ steps.prep.outputs.image }}" .
+        run: docker build \
+          --build-arg VERSION="${{ steps.prep.outputs.version }}" \
+          -t "${{ steps.prep.outputs.image }}" 
 
       - name: Smoke test container
         run: |
