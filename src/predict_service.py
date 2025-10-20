@@ -2,6 +2,8 @@ from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel
 import numpy as np
 from model_utils import ARTIFACTS_DIR
+from pathlib import Path
+import json
 
 from src.model_utils import load_model
 
