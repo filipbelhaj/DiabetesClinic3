@@ -65,70 +65,27 @@ VERSIONS:
 V0.1 Uses Linear Regression and StandardScaler as a baseline model 
 V0.2 Is a improved model using Ridge regularization and risk calibration
 
-Date (Day/Month-Year)
-Description
-Author
-Status
-20/10-2025
-Update Dockerfile – optimized image build and dependencies
-filipbelhaj
-Verified
-20/10-2025
-Update predict_service.py – improved model prediction logic
-filipbelhaj
-Verified
-20/10-2025
-Create README.md – added project documentation and setup guide
-jeppesamuelsson
-Verified
-20/10-2025
-Update predict_service.py – refactoring and minor bug fixes
-filipbelhaj
-Verified
-19/10-2025
-Update publish.yml – refined GitHub Actions workflow
-filipbelhaj
-Verified
-19/10-2025
-Update publish.yml – minor workflow adjustments
-filipbelhaj
-Verified
-19/10-2025
-Create publish.yml – initial publishing pipeline for container image
-filipbelhaj
-Verified
-19/10-2025
-Create release.yml – added release automation workflow
-filipbelhaj
-Verified
-19/10-2025
-Delete .github/workflows/release.yml – removed duplicate file
-filipbelhaj
-Verified
-19/10-2025
-Update ci.yml – updated continuous integration setup
-filipbelhaj
-Verified
-19/10-2025
-Create ci.yml – initial CI workflow for automated testing
-filipbelhaj
-Verified
-19/10-2025
-Create release.yml – setup release configuration
-filipbelhaj
-Verified
-19/10-2025
-Create .gitignore – added standard Python and Docker ignores
-filipbelhaj
-Verified
-19/10-2025
-Create .dockerignore – excluded unnecessary files from Docker build
-filipbelhaj
-Verified
-19/10-2025
-Add files via upload – initial project upload
-filipbelhaj
-Verified
+
+| Date (Day/Month-Year) | Description | Author | Status |
+|------------------------|-------------|---------|---------|
+| 20/10-2025 | Update Dockerfile – optimized image build and dependencies | filipbelhaj | ✅ Verified |
+| 20/10-2025 | Update predict_service.py – improved model prediction logic | filipbelhaj | ✅ Verified |
+| 20/10-2025 | Create README.md – added project documentation and setup guide | jeppesamuelsson | ✅ Verified |
+| 20/10-2025 | Update predict_service.py – refactoring and minor bug fixes | filipbelhaj | ✅ Verified |
+| 19/10-2025 | Update publish.yml – refined GitHub Actions workflow | filipbelhaj | ✅ Verified |
+| 19/10-2025 | Update publish.yml – minor workflow adjustments | filipbelhaj | ✅ Verified |
+| 19/10-2025 | Create publish.yml – initial publishing pipeline for container image | filipbelhaj | ✅ Verified |
+| 19/10-2025 | Create release.yml – added release automation workflow | filipbelhaj | ✅ Verified |
+| 19/10-2025 | Delete .github/workflows/release.yml – removed duplicate file | filipbelhaj | ✅ Verified |
+| 19/10-2025 | Update ci.yml – updated continuous integration setup | filipbelhaj | ✅ Verified |
+| 19/10-2025 | Create ci.yml – initial CI workflow for automated testing | filipbelhaj | ✅ Verified |
+| 19/10-2025 | Create release.yml – setup release configuration | filipbelhaj | ✅ Verified |
+| 19/10-2025 | Create .gitignore – added standard Python and Docker ignores | filipbelhaj | ✅ Verified |
+| 19/10-2025 | Create .dockerignore – excluded unnecessary files from Docker build | filipbelhaj | ✅ Verified |
+| 19/10-2025 | Add files via upload – initial project upload | filipbelhaj | ✅ Verified |
+
+---
+
 
 
 
