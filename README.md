@@ -34,16 +34,16 @@ http://localhost:8080/docs
 Sample Payload:
 
 { 
-"age": 0.02, 
-"sex": -0.044, 
-"bmi": 0.06, 
-"bp": -0.03, 
-"s1": -0.02, 
-"s2": 0.03, 
-"s3": -0.02,
-"s4": 0.02, 
-"s5": 0.02, 
-"s6": -0.001 
+"age": 0.02, <br>
+"sex": -0.044, <br>
+"bmi": 0.06, <br>
+"bp": -0.03, <br>
+"s1": -0.02, <br>
+"s2": 0.03, <br>
+"s3": -0.02,<br>
+"s4": 0.02, <br>
+"s5": 0.02, <br>
+"s6": -0.001 <br>
 }
 
 ## Sample Response V0.1:
@@ -62,8 +62,8 @@ Sample Payload:
 }
 
 ## VERSIONS
-V0.1 Uses Linear Regression and StandardScaler as a baseline model |
-V0.2 Is a improved model using Ridge regularization and risk calibration |
+V0.1 Uses Linear Regression and StandardScaler as a baseline model <br>
+V0.2 Is a improved model using Ridge regularization and risk calibration <br>
 
 
 | Date (Day/Month-Year) | Description | Author | Status |
