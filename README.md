@@ -26,7 +26,7 @@ V0.2
 Docker run -p 8080:8080 ghcr.io/filipbelhaj/diabetesclinic3:v0.2
 
 ## Check Health: 
-http://localhost:8080/HEALTH
+http://localhost:8080/health
 
 ## PREDICT:
 http://localhost:8080/docs
