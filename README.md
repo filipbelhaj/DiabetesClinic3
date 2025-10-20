@@ -1,4 +1,4 @@
-Virtual Diabetes Clinic ML
+##Virtual Diabetes Clinic ML
 
 The project aims to predict disease progression through machnine learning creating a risk score for patients. This is meant for usage from nurses to identify the patients that may need follow up evaluations based on their predicted risk score through their sampled data.
 
