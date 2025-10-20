@@ -4,10 +4,10 @@ The project aims to predict disease progression through machnine learning creati
 
 The project fetches the data with FastAPI and then packaged as a Container in Docker is then able to be used with systems that have the Docker Desktop application/program.
 
-Preconditions (What you need to run this)
-Internet connection
-Docker Desktop instaled and running on your current device 
-The pc Terminal
+Preconditions (What you need to run this) <br>
+- Internet connection
+- Docker Desktop instaled and running on your current device 
+- The pc Terminal
 
 ## Testing ML API: 
 
@@ -33,7 +33,7 @@ http://localhost:8080/docs
 
 Sample Payload:
 
-{ 
+{ <br>
 "age": 0.02, <br>
 "sex": -0.044, <br>
 "bmi": 0.06, <br>
@@ -48,17 +48,17 @@ Sample Payload:
 
 ## Sample Response V0.1:
 
-{
-  "prediction": 235.9496372217627,
-  "model_version": "v0.1"
+{<br>
+  "prediction": 235.9496372217627,<br>
+  "model_version": "v0.1"<br>
 }
 
 ## Sample Response V0.2:
 
-{
-  "prediction": 226.91314681729386,
-  "model_version": "v0.2",
-  "high_risk": true
+{<br>
+  "prediction": 226.91314681729386,<br>
+  "model_version": "v0.2",<br>
+  "high_risk": true<br>
 }
 
 ## VERSIONS
