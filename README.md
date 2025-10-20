@@ -61,9 +61,10 @@ Sample Response V0.2:
   "high_risk": true
 }
 
-VERSIONS:
-V0.1 Uses Linear Regression and StandardScaler as a baseline model 
-V0.2 Is a improved model using Ridge regularization and risk calibration
+| VERSIONS |
+|----------|-------------------------------|
+| V0.1 | Uses Linear Regression and StandardScaler as a baseline model |
+| V0.2 | Is a improved model using Ridge regularization and risk calibration |
 
 
 | Date (Day/Month-Year) | Description | Author | Status |
