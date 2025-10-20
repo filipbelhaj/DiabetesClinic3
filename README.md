@@ -17,7 +17,7 @@ docker pull ghcr.io/filipbelhaj/diabetesclinic3:v0.1
 V0.2
 docker pull ghcr.io/filipbelhaj/diabetesclinic3:v0.2
 
-RUN:
+RUN :Rocket: 
 
 V0.1
 Docker run -p 8080:8080 ghcr.io/filipbelhaj/diabetesclinic3:v0.1
@@ -31,7 +31,7 @@ http://localhost:8080/HEALTH
 PREDICT:
 http://localhost:8080/docs
 
-Sample Payload:
+Sample Payload :Computer:
 
 { 
 "age": 0.02, 
@@ -61,10 +61,9 @@ Sample Response V0.2:
   "high_risk": true
 }
 
-| VERSIONS |
-|----------|-------------------------------|
-| V0.1 | Uses Linear Regression and StandardScaler as a baseline model |
-| V0.2 | Is a improved model using Ridge regularization and risk calibration |
+VERSIONS
+V0.1 Uses Linear Regression and StandardScaler as a baseline model |
+V0.2 Is a improved model using Ridge regularization and risk calibration |
 
 
 | Date (Day/Month-Year) | Description | Author | Status |
