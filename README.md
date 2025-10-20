@@ -17,7 +17,7 @@ docker pull ghcr.io/filipbelhaj/diabetesclinic3:v0.1
 V0.2
 docker pull ghcr.io/filipbelhaj/diabetesclinic3:v0.2
 
-RUN :Rocket: 
+RUN:
 
 V0.1
 Docker run -p 8080:8080 ghcr.io/filipbelhaj/diabetesclinic3:v0.1
@@ -31,7 +31,7 @@ http://localhost:8080/HEALTH
 PREDICT:
 http://localhost:8080/docs
 
-Sample Payload :Computer:
+Sample Payload:
 
 { 
 "age": 0.02, 
@@ -85,9 +85,6 @@ V0.2 Is a improved model using Ridge regularization and risk calibration |
 | 19/10-2025 | Add files via upload – initial project upload | filipbelhaj | ✅ Verified |
 
 ---
-
-
-
 
 Authors:
 Filip Belhaj, Jesper Samuelsson, Samuel Petterson
