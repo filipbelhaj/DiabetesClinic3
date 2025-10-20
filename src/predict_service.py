@@ -1,6 +1,7 @@
 from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel
 import numpy as np
+from model_utils import ARTIFACTS_DIR
 
 from src.model_utils import load_model
 
@@ -66,4 +67,11 @@ def predict(payload: PatientData):
         raise
     except Exception as e:
         raise HTTPException(status_code=400, detail=str(e)) from e
+
+@app.get("/metrics")
+def get_metrics():
+    p: Path = ARTIFACTS_DIR / "metrics.json"
+    if not p.exists():
+        raise HTTPException(status_code=404, detail="metrics.json not found")
+    return json.loads(p.read_text())
 
