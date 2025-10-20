@@ -1,4 +1,4 @@
-##Virtual Diabetes Clinic ML
+# Virtual Diabetes Clinic ML
 
 The project aims to predict disease progression through machnine learning creating a risk score for patients. This is meant for usage from nurses to identify the patients that may need follow up evaluations based on their predicted risk score through their sampled data.
 
@@ -9,15 +9,15 @@ Internet connection
 Docker Desktop instaled and running on your current device 
 The pc Terminal
 
-Testing ML API: 
+## Testing ML API: 
 
-V0.1
+### V0.1
 docker pull ghcr.io/filipbelhaj/diabetesclinic3:v0.1
 
-V0.2
+### V0.2
 docker pull ghcr.io/filipbelhaj/diabetesclinic3:v0.2
 
-RUN:
+## RUN:
 
 V0.1
 Docker run -p 8080:8080 ghcr.io/filipbelhaj/diabetesclinic3:v0.1
@@ -25,10 +25,10 @@ Docker run -p 8080:8080 ghcr.io/filipbelhaj/diabetesclinic3:v0.1
 V0.2
 Docker run -p 8080:8080 ghcr.io/filipbelhaj/diabetesclinic3:v0.2
 
-Check Health: 
+## Check Health: 
 http://localhost:8080/HEALTH
 
-PREDICT:
+## PREDICT:
 http://localhost:8080/docs
 
 Sample Payload:
@@ -46,14 +46,14 @@ Sample Payload:
 "s6": -0.001 
 }
 
-Sample Response V0.1:
+## Sample Response V0.1:
 
 {
   "prediction": 235.9496372217627,
   "model_version": "v0.1"
 }
 
-Sample Response V0.2:
+## Sample Response V0.2:
 
 {
   "prediction": 226.91314681729386,
@@ -61,7 +61,7 @@ Sample Response V0.2:
   "high_risk": true
 }
 
-VERSIONS
+## VERSIONS
 V0.1 Uses Linear Regression and StandardScaler as a baseline model |
 V0.2 Is a improved model using Ridge regularization and risk calibration |
 
@@ -86,7 +86,7 @@ V0.2 Is a improved model using Ridge regularization and risk calibration |
 
 ---
 
-Authors:
+## Authors:
 Filip Belhaj, Jesper Samuelsson, Samuel Petterson
 
 
